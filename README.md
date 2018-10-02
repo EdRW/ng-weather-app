@@ -3,14 +3,14 @@
 # THIS HOMEWORK FOLLOWS THE STEPS TAKING DURING LECTURE THIS WEEK.  THE PRIMARY DIFFERENCE
 # MOVING THE HTTP REQUEST AND THE CITY DETAILS TO THE weather-forecast-list.  ADDITIONALLY, WE # WANT TO EXTRAPOLATE THE DISPLAYED RESULT WITHIN A weather-forecast COMPONENT.
 
-0. CREATE MODELS (Classes) WITH APPROPRIATE ATTRIBUTES FOR CityDetails and WeatherForecast
+0. ~~CREATE MODELS (Classes) WITH APPROPRIATE ATTRIBUTES FOR CityDetails and WeatherForecast~~
 
-1. MAKE SURE TO ADD WEATHERBIT API KEY TO environments/environment.ts
+1. ~~MAKE SURE TO ADD WEATHERBIT API KEY TO environments/environment.ts~~
 
-2. ADD INPUT TO app.component.ts AND BIND THE searchText attribute IN THE app.component.ts TO
-   THE INPUT ELEMENT
+2. ~~ADD INPUT TO app.component.ts AND BIND THE searchText attribute IN THE app.component.ts TO
+   THE INPUT ELEMENT~~
 
-3. PASS USER SEARCH TEXT TO CHILD COMPONENT weather-forecast-list
+3. ~~PASS USER SEARCH TEXT TO CHILD COMPONENT weather-forecast-list~~
 
 4. CREATE getWeather() function IN the weather-forecast-list.component.ts.  ADD THE HTTP 
    REQUEST AS DONE IN LECTURE
