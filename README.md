@@ -12,10 +12,10 @@
 
 3. ~~PASS USER SEARCH TEXT TO CHILD COMPONENT weather-forecast-list~~
 
-4. CREATE getWeather() function IN the weather-forecast-list.component.ts.  ADD THE HTTP 
-   REQUEST AS DONE IN LECTURE
+4. ~~CREATE getWeather() function IN the weather-forecast-list.component.ts.  ADD THE HTTP 
+   REQUEST AS DONE IN LECTURE~~
 
-5. ADD HTML TO THE weather-forecast.html TO DISPLAY A WEATHER FORECAST RESULT
+5. ~~ADD HTML TO THE weather-forecast.html TO DISPLAY A WEATHER FORECAST RESULT~~
 
-6. ADD AN ITERATOR TO weather-forecast-list AND DISPLAY EACH WEATHER
-   FORECAST RESULT <app-weather-forecast>
+6. ~~ADD AN ITERATOR TO weather-forecast-list AND DISPLAY EACH WEATHER
+   FORECAST RESULT <app-weather-forecast>~~
