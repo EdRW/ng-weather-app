@@ -1,7 +1,4 @@
 export class WeatherForecast {
-  date: string;
-  maxTemp: number;
-  minTemp: number;
 
-  constructor() {}
+  constructor(public date: string, public maxTemp: number,  public minTemp: number) {}
 }

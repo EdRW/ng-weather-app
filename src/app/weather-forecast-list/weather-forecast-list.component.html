@@ -1,3 +1,13 @@
 <h4>Weather Forecast List Component Start</h4>
-<div>City: <span>{{searchText}}</span></div>
+<h3><span>{{searchText}}</span></h3>
+<button (click)="getWeather()">Get Weather</button>
+<h3>
+  City:
+  {{cityDetails.cityName}}
+  {{cityDetails.stateCode}}
+</h3>
+<div *ngFor="let weatherForecast of weatherForecasts">
+  <app-weather-forecast [weatherForecast]="weatherForecast"></app-weather-forecast>
+</div>
+
 <h4>Weather Forecast List Component End</h4>

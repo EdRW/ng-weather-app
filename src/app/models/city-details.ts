@@ -1,9 +1,4 @@
 export class CityDetails {
 
-  cityName: string;
-  stateCode: string;
-
-  constructor() {
-      //
-  }
+  constructor(public cityName: string, public stateCode: string) {}
 }
